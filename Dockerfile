@@ -1,4 +1,4 @@
-FROM docker.io/frolvlad/alpine-go:latest
+FROM centos:latest
 RUN ["mkdir", "/nagflux"]
 ADD nagflux /nagflux/nagflux
 ADD config.gcfg /nagflux/config.gcfg
