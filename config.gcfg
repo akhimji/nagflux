@@ -29,7 +29,7 @@
 [InfluxDB "nagflux"]
     Enabled = true
     Version = 1.0
-    Address = "http://influxdb:8086"
+    Address = "http://myinfluxdb:8086"
     Arguments = "precision=ms&db=nagflux"
     StopPullingDataIfDown = true
 
